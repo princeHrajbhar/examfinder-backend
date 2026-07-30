@@ -35,6 +35,7 @@ const DEV_ORIGINS = [
   'http://localhost:3001',
   'https://skillo-frontend.vercel.app',
   'https://skillo-frontend-five.vercel.app',
+  'https://examnotify-frontend-lnx8xnc1v-princehrajbhars-projects.vercel.app/'
 ];
 
 const envOrigins = ENV.FRONTEND_URL.split(',').map(normalizeOrigin).filter(Boolean);
